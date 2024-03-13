@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header h1 {
+    color: blueviolet;
+}
+
+form {
+    gap: 8px;
+    margin-top: 10vh;
+    align-items: flex-start; /* Align labels to the left */
+}
+
+input, button {
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 3vh;
+    padding: 2vh;
+    width: 26.2em;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+label {
+    text-align: left;
+    font-size: large;
+    font-weight: 700;    
+}
+
+main {
+    background-color: black;
+    padding: 10vh;
+    border-radius: 1vh;
+    color: white;
+}
+
+main h1, main h2, main p {
+    text-align: center;
+}
+
+span {
+    text-transform: underline;
+    color: blue;
+    text-decoration: underline;
+}
