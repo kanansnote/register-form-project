@@ -11,9 +11,6 @@ body, form {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header h1 {
-    color: blueviolet;
-}
 
 form {
     gap: 8px;
@@ -46,6 +43,10 @@ main {
     padding: 10vh;
     border-radius: 1vh;
     color: white;
+}
+
+main h1 {
+    color: blueviolet;
 }
 
 main h1, main h2, main p {
